@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./Vinoska-left-top.png" alt="" class="vin" id="pole">
+        <img src="./icon absolute (1).png" alt="" class="icon_absolute">
+        <p id="error">
+        </p>
+        <form id="form" target="frog" name="frog"
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScEmSHz1wboUe9HAtsLI-cgKsi-700VFdaJOHmvpEGzRdQuPQ/formResponse">
+            <iframe name="frog"></iframe>
+            <div class="title">
+                <h2>Регистрац</h2>
+                <div class="bg">ия</div>
+            </div>
+            <div class="login"><label for="login">Логин:</label><input id="login" type="text" name="entry.1556368367"
+                    placeholder="User"></div>
+            <divpass class="password"><label for="pass">Пароль:</label><input id="pass" name="entry.1964198594"
+                    type="text"></divpass>
+            <div class="password2"><label for="repeatPass">Повтор пароля:</label><input id="repeat_pass"
+                    name="entry.2114185242" type="text"></div>
+
+            <button type="reset">
+                <span id="res" class="material-symbols-outlined">
+                    backspace
+                </span></button>
+            <button type="submit" class="button" id="button">Зарегестрироваться            <span class="shine"></span></button>
+        </form>
+    </div>
+    
+    <script src="./form.js"></script>
+</body>
+
+</html>
