@@ -125,7 +125,7 @@ input::placeholder {
 #error {
     color: #606025;
     position: absolute;
-    left: 90%;
+    left: 92%;
     z-index: 12;
     width: 75%;
 }
