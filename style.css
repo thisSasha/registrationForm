@@ -126,7 +126,7 @@ input::placeholder {
     color: #606025;
     position: absolute;
     left: 90%;
-    z-index: 2;
+    z-index: 12;
     width: 75%;
 }
 
